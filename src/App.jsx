@@ -1,6 +1,6 @@
 import { PageProvider } from "./apiContext/pageContext";
 import Header from "./components/header/Header";
-import Page from "./components/page/page";
+import Page from "./components/page/page.jsx";
 
 const App = () => {
   return (
