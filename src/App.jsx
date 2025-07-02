@@ -7,7 +7,7 @@ const App = () => {
     <>
       <PageProvider>
         <Header/>
-        <Page/>
+       <Page/>
         
       </PageProvider>
     </>
