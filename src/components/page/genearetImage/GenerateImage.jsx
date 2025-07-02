@@ -149,7 +149,7 @@ const GenerateImage = () => {
             </form>
 
             {/* result */}
-            <div className="grid grid-cols-4 gap-2 items-center mt-10 ">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-2 items-center mt-10 ">
                 {
                     images ?
 
