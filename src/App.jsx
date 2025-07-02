@@ -1,14 +1,13 @@
 import { PageProvider } from "./apiContext/pageContext";
 import Header from "./components/header/Header";
-import Page from "./components/page/page.jsx";
+import PageController from "./components/page/PageController";
 
 const App = () => {
   return (
     <>
       <PageProvider>
-        <Header/>
-       <Page/>
-        
+        <Header/>  
+        <PageController/>      
       </PageProvider>
     </>
   );

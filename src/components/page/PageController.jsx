@@ -3,7 +3,7 @@ import { PageContext } from '../../apiContext/pageContext';
 import GenerateImage from './genearetImage/GenerateImage';
 import Downloaded from './doenloaded/Downloaded';
 
-const Page = () => {
+const PageController = () => {
     const {page} = useContext(PageContext)
     return (
         <div>
@@ -13,4 +13,4 @@ const Page = () => {
     );
 };
 
-export default Page;
+export default PageController;
